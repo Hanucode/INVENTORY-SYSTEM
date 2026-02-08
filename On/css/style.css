@@ -1,0 +1,61 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    background: #ffffff;
+    padding: 35px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.auth-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #333;
+}
+
+.system-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.btn-register {
+    background-color: #ef5350; /* Red color from your image */
+    border: none;
+    padding: 12px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #d32f2f;
+}
+
+.login-link {
+    font-size: 14px;
+    margin-top: 20px;
+}
