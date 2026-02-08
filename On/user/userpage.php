@@ -75,7 +75,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] != 'user') {
             <div class="col-12">
                 <div class="card welcome-card p-5 text-center">
                     <h1 class="display-5 fw-bold text-dark">Hello, <?php echo $_SESSION['user_name']; ?>!</h1>
-                    <p class="lead text-muted">Aapka user panel ready hai. Yahan aap apni inventory activity dekh sakte hain.</p>
+                    <!-- <p class="lead text-muted"></p> -->
                 </div>
             </div>
         </div>
@@ -114,4 +114,5 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] != 'user') {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
